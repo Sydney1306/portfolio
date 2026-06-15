@@ -9,7 +9,7 @@ export default function Home() {
     <div className="container-main py-16 md:py-24">
       {/* Hero */}
       <section className="mb-20">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight leading-tight text-foreground">
           Nitya Vyas
         </h1>
         <p className="text-lg md:text-xl text-muted mt-3 max-w-2xl">
@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Featured Work */}
       <section className="mb-16">
-        <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-6">
+        <h2 className="text-sm font-medium text-muted uppercase tracking-wider mb-6">
           Featured Work
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -36,7 +36,7 @@ export default function Home() {
 
       {/* Archive */}
       <section>
-        <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-6">
+        <h2 className="text-sm font-medium text-muted uppercase tracking-wider mb-6">
           Archive
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

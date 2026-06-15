@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={`/work/${project.slug}`}
-      className="group block rounded-xl border border-border bg-surface overflow-hidden hover:bg-surface-hover transition-all duration-200"
+      className="group block rounded-xl border border-border bg-surface overflow-hidden hover:shadow-sm hover:border-foreground/20 transition-all duration-200"
     >
       <ProjectPlaceholder
         title={project.title}
@@ -37,20 +37,18 @@ export default function ProjectCard({ project }: { project: Project }) {
           {project.tags.slice(0, 2).map((tag) => (
             <span
               key={tag}
-              className="text-xs px-2 py-0.5 rounded-full bg-background text-muted-foreground border border-border"
+              className="text-xs px-2 py-0.5 rounded-full bg-background text-muted border border-border"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        <h3 className="text-lg font-semibold group-hover:text-accent transition-colors">
+        <h3 className="text-base font-semibold text-foreground group-hover:text-accent transition-colors">
           {project.title}
         </h3>
 
-        <p className="text-sm text-muted-foreground mt-1">
-          {project.subtitle}
-        </p>
+        <p className="text-sm text-muted mt-0.5">{project.subtitle}</p>
 
         <p className="text-sm text-muted mt-2 leading-relaxed line-clamp-2">
           {project.summary}

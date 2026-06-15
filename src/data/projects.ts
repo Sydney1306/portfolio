@@ -91,7 +91,7 @@ export const projects: Project[] = [
     outcome:
       "Prototype validated with 8 target users across e-commerce and service businesses. Participants reduced insight-extraction time by ~60% compared to traditional BI tools.",
     videoUrl: "https://youtu.be/XazxaCIb_Zs",
-    featured: true,
+    featured: false,
   },
   {
     slug: "flo-evaluation",

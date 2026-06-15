@@ -12,8 +12,8 @@ export default function Footer() {
     <footer className="border-t border-border mt-24">
       <div className="container-main py-12 flex flex-col md:flex-row items-start justify-between gap-8">
         <div>
-          <p className="text-sm font-medium">Nitya Vyas</p>
-          <p className="text-sm text-muted-foreground mt-1">
+          <p className="text-sm font-semibold text-foreground">Nitya Vyas</p>
+          <p className="text-sm text-muted mt-1">
             Product Designer · AI Healthcare · UX Research
           </p>
         </div>
@@ -25,7 +25,7 @@ export default function Footer() {
               href={link.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+              className="text-sm text-muted hover:text-foreground transition-colors"
             >
               {link.label}
             </Link>
