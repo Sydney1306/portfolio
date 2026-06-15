@@ -7,6 +7,8 @@ import ProjectPlaceholder from "@/components/project-placeholder";
 const gradients: Record<string, string> = {
   "suki-ai":
     "linear-gradient(135deg, #0a1628 0%, #1a2a4a 50%, #2a4a6a 100%)",
+  "lucio-studio":
+    "linear-gradient(135deg, #0a1a1a 0%, #0d2b2b 50%, #1a3d3d 100%)",
   "miband-zepp-life":
     "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
   intellisight:

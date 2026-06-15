@@ -69,8 +69,10 @@ export default function About() {
             <p>
               My research spans healthcare UX, wearable technology, legal tech
               digitisation, and traditional Indian jewellery manufacturing
-              processes. I&apos;m driven by questions about how AI changes the
-              designer&apos;s role — not replacing judgment, but expanding what
+              processes. I&apos;ve also consulted for legal AI startups — most recently
+              at <strong>Lucio AI</strong>, where I led a UX audit and 0-to-1 dashboard
+              redesign for their legal AI workspace. I&apos;m driven by questions about
+              how AI changes the designer&apos;s role — not replacing judgment, but expanding what
               we can explore.
             </p>
           </div>

@@ -37,6 +37,24 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "lucio-studio",
+    title: "Lucio AI",
+    subtitle: "Legal AI Dashboard — UX Audit & 0-to-1 Redesign",
+    role: "UX Consultant",
+    duration: "2 months",
+    team: "Independent consultancy",
+    tags: ["Legal Tech", "AI Product", "Dashboard Design", "UX Audit"],
+    summary:
+      "Audited an existing legal AI dashboard for usability gaps, then led the 0-to-1 design of a redesigned dashboard — improving clarity, workflow efficiency, and trust for legal professionals navigating AI-powered document workflows.",
+    challenge:
+      "Lucio's existing dashboard was feature-dense but hard to navigate — lawyers reported cognitive overload, unclear information hierarchy, and difficulty discovering key AI capabilities. The product needed a UX overhaul before scaling to enterprise law firms.",
+    approach:
+      "Started with a systematic UX audit — heuristic evaluation, user interviews with practising lawyers, and task analysis of core workflows (document review, drafting, research). Identified 15+ usability issues. Then designed a new dashboard from scratch: simplified navigation, progressive disclosure for AI features, and a clear action-oriented home surface. Iterated through wireframes, high-fidelity mockups, and usability validation with lawyers.",
+    outcome:
+      "Delivered a comprehensive audit report and a redesigned dashboard that reduced task completion time for core workflows. The new information architecture improved feature discoverability and reduced cognitive load — directly supporting Lucio's enterprise sales cycle.",
+    featured: true,
+  },
+  {
     slug: "miband-zepp-life",
     title: "Making Fitness Stick",
     subtitle: "Wearable Activity Tracking for Adherence",
